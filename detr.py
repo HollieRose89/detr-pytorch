@@ -26,7 +26,7 @@ class Detection_Transformers(object):
         #   如果出现shape不匹配，同时要注意训练时的model_path和classes_path参数的修改
         #--------------------------------------------------------------------------#
         "model_path"        : 'model_data/detr_resnet50_weights_coco.pth',
-        "classes_path"      : 'model_data/coco_classes.txt',
+        "classes_path"      : '/content/detr-pytorch/model_data/coco_classes.txt',
         #---------------------------------------------------------------------#
         #   输入图片的大小
         #---------------------------------------------------------------------#
